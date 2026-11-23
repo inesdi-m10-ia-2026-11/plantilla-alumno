@@ -1,0 +1,59 @@
+# estado.yaml: dónde está tu proyecto, pieza a pieza.
+# Lo actualiza tu agente al final de cada sesión, y el docente lo lee para ver cómo va la clase.
+# Esquema fijo: no cambies los nombres de las claves ni su orden; cambia solo los valores.
+# estado: pendiente | en_curso | hecho | bloqueado
+# Textos entre comillas; lo que no existe todavía, "".
+# repo: usuario/repo/carpeta, por ejemplo "ana/ventas/web".
+
+version: 1
+proyecto: ""            # nombre corto de tu proyecto (el de tu repo de app)
+actualizado: ""         # fecha de la última actualización, AAAA-MM-DD
+sesion: 0               # última sesión del módulo en la que has trabajado (1 a 9)
+idea_aprobada: false    # true cuando el docente la aprueba en el debate "Ideas y URLs"
+
+piezas:
+  web:                  # tu página pública en Vercel
+    estado: pendiente
+    sesion: 1           # sesión del módulo en la que toca
+    url: ""             # la URL pública, si la hay
+    repo: ""
+    nota: ""            # una línea: qué falta o qué tiene de especial
+  datos:                # tus datos en una tabla de Supabase
+    estado: pendiente
+    sesion: 2
+    url: ""             # la URL de tu proyecto de Supabase (nunca una clave)
+    repo: ""            # dónde está el SQL
+    nota: ""
+  app_login:            # tu app con login y algo que guarda cada usuario
+    estado: pendiente
+    sesion: 2
+    url: ""
+    repo: ""
+    nota: ""
+  modelo:               # tu modelo servido como API en Render
+    estado: pendiente
+    sesion: 3
+    url: ""
+    repo: ""
+    nota: ""
+  mcp:                  # tu servidor MCP
+    estado: pendiente
+    sesion: 4
+    url: ""
+    repo: ""
+    nota: ""
+  agente:               # tu agente programado, que avisa por Telegram
+    estado: pendiente
+    sesion: 5
+    url: ""
+    repo: ""
+    nota: ""
+  seguridad:            # claves fuera del código, permisos y pruebas mínimas
+    estado: pendiente
+    sesion: 7
+    url: ""
+    repo: ""
+    nota: ""
+
+bloqueos: []            # lo que te impide avanzar, una frase por bloqueo
+siguiente: ""           # la próxima tarea concreta, una frase

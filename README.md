@@ -7,7 +7,11 @@ Este es tu repo de gestión: el cuaderno de tu proyecto. Aquí va lo que decides
 | Archivo | Qué va | Cuándo |
 |---|---|---|
 | `idea.md` | Tu idea en una frase y qué predices | Sesión 1, y cada vez que cambie |
+| `brief.md` | El proyecto en una página: problema, usuarios, objetivo, alcance, criterios de éxito, restricciones e hitos | Sesión 2, y cada vez que cambie el alcance |
 | `datos.md` | Fuente, licencia, columnas y qué columna predices | Sesiones 1 y 2 |
+| `arquitectura.md` | Las piezas, cómo se conectan, dónde vive cada una y la pieza actual en detalle | Sesión 2, y cada vez que añadas una pieza |
+| `estado.yaml` | Dónde está cada pieza (pendiente, en curso, hecho, bloqueado), con su URL. Esquema fijo | Al final de cada sesión, con tu agente |
+| `todo.md` | Las tareas de la sesión actual | Al empezar y al acabar cada sesión |
 | `decisiones.md` | Cada decisión importante, con fecha y por qué | Cuando decidas algo |
 | `bitacora/` | Una nota por sesión: qué pediste a la IA, qué falló y cómo lo arreglaste | Al final de cada sesión, 5 minutos |
 | `prompts/` | Los prompts que te funcionaron | Cuando uno te funcione |
