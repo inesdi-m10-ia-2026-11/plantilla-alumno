@@ -12,7 +12,7 @@ Este es tu repo de gestión: el cuaderno de tu proyecto. Aquí va lo que decides
 | `bitacora/` | Una nota por sesión: qué pediste a la IA, qué falló y cómo lo arreglaste | Al final de cada sesión, 5 minutos |
 | `prompts/` | Los prompts que te funcionaron | Cuando uno te funcione |
 | `urls.md` | Tus URLs (web, API, MCP, agente) y tus repos de app | Cada vez que publiques algo |
-| `apps/` | Tus repos de app, enlazados como submódulos | Desde la sesión 4 |
+| `apps/` | Tu repo de app, enlazado como submódulo | Desde la sesión 1 |
 
 ## Cómo usarlo con tu agente
 
